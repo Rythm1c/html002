@@ -1,7 +1,9 @@
-# Learning HTML navigation
+# Learning markdown
 
 
-a sample of the home page
+simple link to zindua school [home page](https://zinduaschool.com/)
+
+a sample of the home page of this repo
 ![alt text](assets/Screenshot.png)
 
 cloning the code:
@@ -13,7 +15,7 @@ $ git clone https://github.com/Rythm1c/html002.git
 
 ```
 
-pushing the code:
+pushing the code(this steps only apply after cloning the code ):
 
 ```
 
