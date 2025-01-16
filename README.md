@@ -6,7 +6,11 @@ simple link to zindua school [home page](https://zinduaschool.com/)
 a sample of the home page of this repo
 ![alt text](assets/Screenshot.png)
 
-cloning the code:
+tools:
+- CSS
+- HTML
+
+cloning the project:
 
 ```
 
