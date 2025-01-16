@@ -7,6 +7,7 @@ a sample of the home page
 cloning the code:
 
 ```
+
 $ git clone https://github.com/Rythm1c/html002.git
 
 
@@ -21,3 +22,4 @@ $ git commit -m "your message"
 $ git push origin main
 
 ```
+
