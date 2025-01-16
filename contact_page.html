@@ -5,19 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .input {
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+            margin-bottom: 50px;
+
+        }
+
+        .icon {
+            padding: 10px;
+            background: dodgerblue;
+            color: white;
+            min-width: 50px;
+            text-align: center;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            outline: none;
+        }
+    </style>
 </head>
 
 <body>
-    <form action="">
-        <label for="name">name</label>
-        <br>
-        <input type="text" name="text" required placeholder="enter name...">
-        <br>
+    <form action="" style="text-align: center;">
 
-        <label for="email">email</label>
-        <br>
-        <input type="email" name="email" required placeholder="enter your email...">
-        <br>
+        <div class="input">
+            <i class="fa fa-user icon"></i>
+            <input type="text" class="input-field" required placeholder="Enter name...">
+        </div>
+
+        <div class="input">
+            <i class="fa fa-envelope icon"></i>
+            <input type="email" class="input-field" required placeholder="Enter your email...">
+        </div>
 
         <label for="message">message</label>
         <br>
